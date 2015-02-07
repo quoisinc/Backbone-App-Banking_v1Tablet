@@ -1,0 +1,38 @@
+/*@font-face
+{
+    font-family: Interstate;
+    src: url('Interstate-Regular.otf')
+}
+@font-face
+{
+    font-family: Interstate-light;
+    src: url('Interstate-ExtraLight.otf')
+}*/
+
+.panelView { overflow: hidden !important; width: 100%; position: relative; height: 100%}
+.panelView #panelViewArea{ white-space: nowrap; height: 100%;  }
+
+.panelView #panelViewArea > div{
+    height: 100%;
+    white-space: normal;
+    margin:0px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top
+
+}
+.panelView #panelViewArea .panel  > div { height: 100%; position: relative;}
+.panelView #panelViewArea #prevPanel,
+.panelView #panelViewArea #currPanel,
+.panelView #panelViewArea #nextPanel { }
+
+.paneView  .contentBody{ padding: 20px;}
+
+
+.paneView  > div { height: 100%; position: relative;}
+
+
+.paneView .footer + .contentBody { padding-bottom: 30px;}
+
+
+.paneView{ /*font-family: 'verdana';*/ font-size: 14px; line-height: 20px;}

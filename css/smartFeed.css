@@ -1,0 +1,206 @@
+/*
+	side hidden panel for: Smart Feed, Clients and other tabs on the right side
+*/
+#placeMain {
+	position: relative;
+}
+
+.aside-right-pane {
+	position: absolute;
+	top: 0;
+	left: 1800px; /* place it outside of the view-port*/
+	bottom: 0px;
+	background: #333;
+	width: 350px;
+	z-index: 9999;
+}
+.aside-right-pane .aside-content{
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.collapseable {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: #dbdddf;
+	height: 100%;
+	z-index: 1001;
+	width: 390px;
+}
+.collapseable.open {
+	-webkit-transform: translate(-390px, -0px );
+}
+.collapseable-content {
+	background: #dbdddf;
+}
+.collapseable-content section{
+	height: 0px;
+	width: 385px;
+	overflow: auto;
+	color: #333;
+	font-size: 11px;
+}
+
+.collapseable .aside-tab {
+	position: absolute;
+	left: -34px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform:    rotate(-90deg);
+	-ms-transform:     rotate(-90deg);
+	transform:         rotate(-90deg);
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	background: #dbdddf;
+	border-radius: 4px 4px 0 0;
+	padding: 10px 20px 12px;
+	font-size: 12px;
+	background-clip: padding-box;
+	color: #666;
+	cursor: pointer;
+}
+
+.smart-feed {
+	bottom: 150px;
+}
+.collapseable h4 {
+	position: relative;
+	display: block;
+	font-size: 13px;
+	margin: 0;
+	padding: 10px 20px;
+	font-weight: 100;
+	border-top: solid 1px rgb(53, 53,53);
+	border-bottom: solid 1px rgb(0,0,0);
+	background: #242424;
+	width:348px;
+	cursor: pointer;
+}
+.collapseable h4:after {
+	content: ' ';
+	position: absolute;
+	top: 7px;
+	right: 22px;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background: #000 url("../../developer/imgs/buttons/button-icons-sprite.png") -32px -60px no-repeat !important;
+}
+.collapseable h4.expanded:after {
+	content: ' ';
+	position: absolute;
+	top: 7px;
+	right: 22px;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background: #000 url("../../developer/imgs/buttons/button-icons-sprite.png") -32px -312px no-repeat !important;
+}
+
+.feed-title {
+	margin: 0 0 5px 0;
+	width: 80%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.feed-date {
+	color: #838589;
+	font-weight: 100;
+	padding: 0 0 0 10px;
+}
+.feed-block {
+	position: relative;
+	padding: 20px 15px;
+	margin: 0 0 0 5px;
+	border-bottom: 1px solid #bcbec2;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+.feed-block:after {
+	content: ' ';
+	position: absolute;
+	top: 37%;
+	right: 5px;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background: url("../../developer/imgs/buttons/button-icons-sprite.png") -32px -172px no-repeat !important;
+}
+
+.insight-feed {
+	margin: 20px;
+	border: 1px solid  #838589;
+	border-radius: 4px;
+	box-shadow: inset 0 25px 100px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.25);
+	height: 225px;
+	display: block;
+	position: relative;
+}
+
+.book-mark {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 73px;
+	height: 73px;
+	-webkit-border-radius: 0 4px 0 0;
+	-moz-border-radius: 0 4px 0 0;
+	border-radius: 0 4px 0 0;
+	background: url('../imgs/insight/bookmarkSprite.png') no-repeat;
+	cursor: pointer;
+}
+
+.insight-date {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 60px;
+	height: 13px;
+	background-color: rgba(0,0,0,.5);
+	padding: 10px;
+	color: #FFF;
+	font-size: 13px;
+	line-height: 13px;
+	font-weight: 100;
+}
+
+.insight-title {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 40px;
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.3;
+	font-weight: 100;
+	padding: 10px 50px 10px 10px;
+	background: #333;
+	background-image: url('../imgs/insight/rightArrow.png');
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
+.cio .insight-title  {
+	background-color: #0072AE; /* Sapphire */
+}
+.advisoryServices .insight-title  {
+	background-color: #633068; /* Garnet */
+}
+.investmentResearch .insight-title  {
+	background-color: #C18D00; /* Citron */
+}
+.fixedIncome .insight-title  {
+	background-color: #4CAFAA; /* Aquamarine */
+}

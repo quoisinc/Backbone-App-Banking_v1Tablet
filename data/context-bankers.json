@@ -1,0 +1,76 @@
+[{
+	"name": "Banker 1",
+	"clients": 	[
+		{
+			"name": "Client b1c1",
+			"groups": [
+				{"name": "Grp b1c1g1"},
+				{"name": "Grp b1c1g2"}
+			]
+		},
+		{
+			"name": "Client b1c2",
+			"groups": [
+				{"name": "Grp b1c2g1"},
+				{"name": "Grp b1c2g2"}
+			]
+		}
+	]
+},
+{
+	"name": "Banker 2",
+	"clients": 	[
+		{
+			"name": "Client b2c1",
+			"groups": [
+				{"name": "Grp b2c1g1"},
+				{"name": "Grp b2c1g2"}
+			]
+		},
+		{
+			"name": "Client b2c2",
+			"groups": [
+				{"name": "Grp b2c2g1"},
+				{"name": "Grp b2c2g2"}
+			]
+		}
+	]
+},
+{
+	"name": "Banker 3",
+	"clients": 	[
+		{
+			"name": "Client b3c1",
+			"groups": [
+				{"name": "Grp b3c1g1"},
+				{"name": "Grp b3c1g2"}
+			]
+		},
+		{
+			"name": "Client b3c2",
+			"groups": [
+				{"name": "Grp b3c2g1"},
+				{"name": "Grp b3c2g2"}
+			]
+		}
+	]
+},
+{
+	"name": "Banker 4",
+	"clients": 	[
+		{
+			"name": "Client b4c1",
+			"groups": [
+				{"name": "Grp b4c1g1"},
+				{"name": "Grp b4c1g2"}
+			]
+		},
+		{
+			"name": "Client b4c2",
+			"groups": [
+				{"name": "Grp b4c2g1"},
+				{"name": "Grp b4c2g2"}
+			]
+		}
+	]
+}]

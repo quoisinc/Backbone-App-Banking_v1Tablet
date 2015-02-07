@@ -1,0 +1,50 @@
+[
+    {
+        "bankers": {
+            "banker": {
+                "name": "banker 1",
+                "clients": {
+                    "client": {
+                        "name": "client 1a",
+                        "groups": {
+                            "group": {
+                                "name": "group 1a",
+                                "members": {
+                                    "member": {
+                                        "name": "member 1",
+                                        "accnum": "23232323"
+                                    },
+                                    "member": {
+                                        "name": "member 2",
+                                        "accnum": "34343434"
+                                    },
+                                    "member": {
+                                        "name": "member 3",
+                                        "accnum": "23456355"
+                                    }
+                                }
+                            },
+							"group": {
+                                "name": "group 2",
+                                "members": {
+                                    "member": {
+                                        "name": "member 1b",
+                                        "accnum": "23232323"
+                                    },
+                                    "member": {
+                                        "name": "member 2b",
+                                        "accnum": "34343434"
+                                    },
+                                    "member": {
+                                        "name": "member 3b",
+                                        "accnum": "23456355"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+]

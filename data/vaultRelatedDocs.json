@@ -1,0 +1,32 @@
+[
+        {
+            "title": "Related Document 1",
+            "type": "PDF",
+            "tags": [
+                {
+                    "title": "title 1"
+                },
+                {
+                    "title": "title 2"
+                }
+            ]
+        },
+        {
+            "title": "Related Document 2",
+            "type": "PDF",
+            "tags": [
+                {
+                    "title": "title 1"
+                },
+                {
+                    "title": "title 2"
+                },
+                {
+                    "title": "title 3"
+                },
+                {
+                    "title": "title 4"
+                }
+            ]
+        }
+]

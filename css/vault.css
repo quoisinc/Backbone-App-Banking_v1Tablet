@@ -1,0 +1,77 @@
+.VaultDocumentDetail{}
+
+#uploadFile{ margin: 0px auto; width: 90%}
+.uploadFileWrapper{ text-align: center; width: 100%; margin: 0px auto;  position: absolute; bottom: 26px;}
+.VaultDocumentDetail .mainDocument, .relatedDocs .relatedDocument{
+    color: #000000;
+    margin: 20px;
+
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    -moz-box-shadow:0px 0px 2px 1px rgba(119, 119, 119, 0.2);
+    -webkit-box-shadow:0px 0px 2px 1px rgba(119, 119, 119, 0.2);
+    box-shadow:0px 0px 2px 1px rgba(119, 119, 119, 0.2);
+
+}
+
+.noTransitionTime { -webkit-transition-duration: 0s !important;}
+
+.relatedDocs .relatedDocument{
+    margin: 10px 20px;
+}
+
+.VaultDocumentDetail .mainDocument .heading { padding: 15px 10px 15px 60px; background:  url(../imgs/vault/statement-large2.png) no-repeat 15px 15px;}
+.VaultDocumentDetail .mainDocument .heading .date{ color: #d3d3d3;}
+.VaultDocumentDetail .mainDocument .tags ul, #uploadPanel .tags ul{ display: inline;}
+.VaultDocumentDetail .mainDocument .tags ul li,  #uploadPanel .tags li{ display: inline-block; list-style: none; padding:4px;}
+
+
+.VaultDocumentDetail .mainDocument .details,
+.VaultDocumentDetail .mainDocument .description,
+.VaultDocumentDetail .mainDocument .tags,
+.VaultDocumentDetail .mainDocument .actions { border-top: 1px solid #ebebeb; padding: 14px}
+
+
+.VaultDocumentDetail .mainDocument .details{ }
+.VaultDocumentDetail .mainDocument .details .detailsColumn { width: 49%; display: inline-block; font-size: 12px; color: rgb(155, 155, 155); vertical-align: top}
+
+
+.uploadDocumentView { height: 100%; position: relative;}
+
+.VaultDocumentDetail .mainDocument .actions ul{ display: inline;}
+.VaultDocumentDetail .mainDocument .actions ul li{ display: inline;}
+
+#uploadPanel #addTagsButton, #uploadPanel #upload{ float: right;}
+#uploadPanel .footer{height: 65px}
+
+
+.relatedDocs ul, .relatedDocs ul li{ list-style: none;}
+.relatedDocument .align-right{ float: right}
+
+
+.relatedDocument, .documentListItem{  padding: 0px 10px 0px 50px; background: url('../imgs/vault/statement-small.png') no-repeat 15px center}
+.relatedDocument { padding-top: 10px; padding-bottom: 10px;}
+.list.listView.light td:hover .documentListItem{ }
+
+
+.relatedDocument, .documentListItem div{ line-height: 18px}
+
+.relatedDocument .date, .relatedDocument .accNum,
+.documentListItem .date, .documentListItem .accNum
+{ font-size: 12px; color: #a2a2a2;}
+
+
+
+.VaultDocumentDetail .mainDocument .actions li{ margin-right: 7px;}
+.VaultDocumentDetail .mainDocument .actions li.deleteIC{ float:right}
+
+
+
+.list, .list tr, .list tr td {
+    transition: height .3s;
+    -moz-transition: height .3s; /* Firefox 4 */
+    -webkit-transition: height .3s; /* Safari and Chrome */
+    -o-transition: height .3s; /* Opera */
+}
+
+.list tr {  }

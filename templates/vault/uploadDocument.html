@@ -1,0 +1,56 @@
+<div>
+
+    <!--<div class="footer">-->
+        <!--<div class="footer-inner">-->
+            <!--<button id="addTagsButton" class="button forward">Add Tags</button>-->
+        <!--</div>-->
+
+    <!--</div>-->
+    <div class="footer">
+        <div class="footer-inner">
+            <!-- <button id="back" class="button back backPane">back</button> -->
+            <button id="addTagsButton" class="button forward">Add Tags</button>
+        </div>
+    </div>
+
+
+    <div class="contentBody">
+
+
+
+        <div class="form trans">
+        <form>
+            <fieldset>
+                <div>
+                    <label for="documentTitle">Name:</label>
+                    <div class="input-field inputBox">
+                        <input type="text" id="documentTitle" placeholder="Enter Document Title">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="folder">Folder:</label>
+                    <div class="input-field">
+                        <select id="folder">
+                            <% for (var i=0; i<folderList.length; i++) { %>
+                                <option value="<%= folderList[i] %>" <% if (folderList[i] == groupSelected) { %>selected<% } %>><%= folderList[i] %></option>
+                            <% } %>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="documentDescription">Description:</label>
+                    <div class="input-field inputBox">
+                        <textarea id="documentDescription" rows="10" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></textarea>
+
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        </div>
+
+
+    </div>
+
+</div>
